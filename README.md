@@ -32,12 +32,12 @@ Some datasets (CLUSTER, TSP, ZINC, and CIFAR10) are provided by project [benchma
 ## Search GNN Architectures
 
 We have provided scripts for easily searching graph neural networks on six datasets. 
-```shell
+```sh
 CUDA_VISIBLE_DEVICES=0 python search.py ds=ZINC optimizer=train_optimizer ds.arch_save='archs/TEST' basic.nb_layers=4 basic.nb_nodes=4
 ```
 
 ## Train with Genotypes
 We provided scripts for easily training graph neural networks searched by ARGNP.
-```python
+```sh 
 CUDA_VISIBLE_DEVICES=0 python train.py ds=ZINC  optimizer=train_optimizer ds.load_genotypes='archs/TEST/ZINC/45/cell_geno.txt'
 ```

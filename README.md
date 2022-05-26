@@ -26,6 +26,7 @@ Some datasets (CLUSTER, TSP, ZINC, and CIFAR10) are provided by project [benchma
 |CLUSTER|node|[click here](https://data.dgl.ai/dataset/benchmarking-gnns/SBM_CLUSTER.pkl)|
 |TSP|edge|[click here](https://data.dgl.ai/dataset/benchmarking-gnns/TSP.pkl)|
 |ZINC|graph|[click here](https://data.dgl.ai/dataset/benchmarking-gnns/ZINC.pkl)|
+|MNIST|graph|[click here](https://data.dgl.ai/dataset/benchmarking-gnns/MNIST.pkl)|
 |CIFAR10|graph|[click here](https://data.dgl.ai/dataset/benchmarking-gnns/CIFAR10.pkl)|
 
 ## Search GNN Architectures
